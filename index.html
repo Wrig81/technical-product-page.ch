@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical Documentation Page</title>
+    <!DOCTYPE html>
+    <html>
+    <head>
+      <style>
+          * {
+            box-sizing: border-box;
+          }
+          
+          body {
+            font-family: Arial;
+            padding: 10px;
+            background: #f1f1f1;
+          }
+          
+          /* Header/Blog Title */
+          .header {
+            padding: 30px;
+            text-align: center;
+            background: white;
+          }
+          
+          .header h1 {
+            font-size: 50px;
+          }
+          
+          /* Style the top navigation bar */
+          .topnav {
+            overflow: hidden;
+            background-color: #333;
+          }
+          
+          /* Style the topnav links */
+          .topnav a {
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+          }
+          
+          /* Change color on hover */
+          .topnav a:hover {
+            background-color: #ddd;
+            color: black;
+          }
+          
+          /* Create two unequal columns that floats next to each other */
+          /* Left column */
+          .leftcolumn {   
+            float: left;
+            width: 15%;
+          }
+          
+          /* Right column */
+          .rightcolumn {
+            float: left;
+            width: 75%;
+            background-color: #f1f1f1;
+            padding-left: 20px;
+          }
+          
+          /* Fake image */
+          .fakeimg {
+            background-color: #aaa;
+            width: 100%;
+            padding: 20px;
+          }
+          
+          /* Add a card effect for articles */
+          .card {
+            background-color: white;
+            padding: 20px;
+            margin-top: 20px;
+          }
+          
+          /* Clear floats after the columns */
+          .row:after {
+            content: "";
+            display: table;
+            clear: both;
+          }
+          
+          /* Footer */
+          .footer {
+            padding: 20px;
+            text-align: center;
+            background: #ddd;
+            margin-top: 20px;
+          }
+          
+          /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+          @media screen and (max-width: 1000px) {
+            .leftcolumn, .rightcolumn {   
+              width: 100%;
+              padding: 0;
+            }
+          }
+          @media (max-width: 800px) {
+            .topnav a {
+              float: none;
+              width: 100%;
+            }
+          }
+          .navi {
+            background-color: white;
+            padding: 20px;
+            margin-top: 20px;
+          }
+           
+            
+      </style>
+    </head>
+    <body>
+      
+      <div class="header">
+                <h1 id="title">Build your own drone</h1>
+                <p>How to build a drone</p>
+              </div>  
+        
+       
+      <main id="main-doc">
+        <div class="row">
+          <div class="leftcolumn">
+            <div class="navi">
+            <nav class="topnav" id="navbar">
+              <header>Xour own drone!</header>
+              <a href="#Build_a_drone" class="nav-link" id="nav-link">
+                Build a drone
+              </a>
+              <a href="#What_to_do" class="nav-link" id="nav-link">
+                What to do
+              </a>
+              <a href="#needs_to_get_done" class="nav-link"id="nav-link">
+                needs to get done
+              </a>
+              <a href="#preparation" class="nav-link" id="nav-link">
+                preparation 
+              </a>
+              <a href="#repairing_a_drone" class="nav-link" id="nav-link">
+                repairing a drone
+              </a>
+            </nav>
+          </div>
+          </div>
+
+            <div class="rightcolumn">
+              
+            
+            <div class="card">
+                  <section class="main-section" id="Build_a_drone">
+                      <header>Build a drone</header>
+                      <code>Lorem ipsum dolor sit amet</code>
+                      <ol>
+                        <li>Frame</li>
+                        <li>Motor OR Rotor</li>
+                        <li> ESC Electronic Speed Controls</li>
+                        <li>Flight Controller</li>
+                        <li>Radio Transmitter Dan Receiver</li>
+                        <li>Propeller</li>
+                        <li>Battery</li>
+                        <li>Charger</li>
+                      </ol>
+                     
+                      <p>Lorem ipsum dolor sit amet</p>
+                      <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                    </div>
+                    <div class="card">
+                  </section>    
+                      <section class="main-section" id="What_to_do">
+                        <header>What to do</header>
+                        <code>Lorem ipsum dolor sit amet</code>
+
+                          <p>Lorem ipsum dolor sit amet</p>
+                          <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                        </div>
+                      <div class="card">
+                    </section>
+                      <section class="main-section" id="needs_to_get_done">
+                        <header>needs to get done</header>
+                        <code>Lorem ipsum dolor sit amet</code>
+                          <p>Lorem ipsum dolor sit amet</p>
+                          <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                        </div>
+                        <div class="card">
+                      </section>    
+                  <section class="main-section" id="preparation">
+                    <header>preparation</header>
+                    <code>Lorem ipsum dolor sit amet</code>
+                          
+                          <p>Lorem ipsum dolor sit amet</p>
+                          <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                        </div>
+                      <div class="card">
+                  </section>
+              <section class="main-section"id="repairing_a_drone">
+                <header>repairing a drone</header>
+                <code>Lorem ipsum dolor sit amet</code>
+                   
+                    <p>Lorem ipsum dolor sit amet</p>
+                    <p>Sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco.</p>
+                  </div>
+              </section>
+            </div>
+    </main> 
+    <footer class="footer">
+        <p>Coded by Timothée Guex for freecodecamp</p>
+    </footer>
+        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+      </body>
+    </html>
+    
